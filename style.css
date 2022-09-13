@@ -1,0 +1,51 @@
+* body {
+    background: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --fundo-card: #1B2226;
+    --texto-primario: rgba(255, 255, 255, 0.9);
+    --texto-secundario: rgba(255, 255, 255, 0.6);
+    --primario: #70B5F9;
+    --texto-escuro: rgba(0, 0, 0, 0.75);
+    --input: #38434F;
+}
+
+header {    
+    background: var(--fundo-card);
+    color: var(--texto-primario);
+}
+
+.container {
+    display: flex;
+}
+
+.icone-pesquisa {    
+    display: flex;
+    padding: 9px 0;
+    margin-left: 153px;
+    margin-right: 288px;
+}
+
+.logo {
+    margin-right: 8px;
+    width: 34px;
+}
+
+.pesquisa {
+    width: 280px;
+    height: 34px;
+    background: var(--input);
+    border: none;
+    border-radius: 4px;
+
+}
+
+.icones {
+    width: 80px;
+    display: inline-block;
+    margin: 9px 30px 9px 8px;
+    text-align: center;
+    font-size: 12px;
+}
