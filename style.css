@@ -23,9 +23,9 @@ header {
 
 .icone-pesquisa {    
     display: flex;
-    padding: 9px 0;
+    margin: 9px 0;
     margin-left: 153px;
-    margin-right: 288px;
+    margin-right: 150px;
 }
 
 .logo {
@@ -42,10 +42,34 @@ header {
 
 }
 
+.nav-icones {
+    display: flex;    
+}
+
 .icones {
     width: 80px;
-    display: inline-block;
-    margin: 9px 30px 9px 8px;
+    margin: 9px 4px 0 4px;
     text-align: center;
     font-size: 12px;
+}
+
+.icones p {
+    margin-bottom: 6px;
+}
+
+.icones:hover {
+    border-bottom: 3px solid var(--texto-primario);
+}
+
+.icones img {
+    margin: 0 auto;
+}
+
+.icone-notificacoes {
+    margin-right: 10px;
+}
+
+hr {
+    height: 54px;
+    margin: 0;
 }
