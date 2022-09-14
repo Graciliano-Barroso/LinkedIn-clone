@@ -39,7 +39,15 @@ header {
     background: var(--input);
     border: none;
     border-radius: 4px;
+    padding-left: 33px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--texto-primario);
+}
 
+.icone-busca {
+    position: relative;
+    right: 308px;
 }
 
 .nav-icones {
