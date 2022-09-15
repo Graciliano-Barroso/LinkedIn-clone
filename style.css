@@ -81,3 +81,77 @@ hr {
     height: 54px;
     margin: 0;
 }
+
+/*fim do header*/
+
+.card-capa {
+    background: var(--fundo-card);
+    position: absolute;
+    width: 780px;
+    height: 468px;
+    left: 154px;
+    top: 76px;
+}
+
+.img-perfil {
+    position: absolute;
+    left: 24px;
+    top: 118px;
+}
+
+.inform {
+    color: var(--texto-primario);
+    margin-top: 50px;
+    margin-left: 24px;
+}
+
+
+
+h1, h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.ling-adq, p {
+    color: var(--texto-secundario);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.info-cont, .seg-con {
+    color: var(--primario);
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.seg-con {
+    font-weight: 500;
+}
+
+/*
+.img-perfil {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 24px;
+    top: 118px;
+}
+
+.inform {
+    position: absolute;
+    width: 350px;
+    height: 30px;
+    left: 24px;
+    top: 278px;
+}
+*/
+
