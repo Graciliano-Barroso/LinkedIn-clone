@@ -17,16 +17,15 @@ header {
     color: var(--texto-primario);
 }
 
-.caixa {
-    width: 1221px;
+.container {
     display: flex;
-    margin: 0 auto;
-    justify-content: space-between;
 }
 
 .icone-pesquisa {    
     display: flex;
     margin: 9px 0;
+    margin-left: 153px;
+    margin-right: 150px;
 }
 
 .logo {
@@ -34,13 +33,13 @@ header {
     width: 34px;
 }
 
-.input-pesquisa {
+.pesquisa {
     width: 280px;
     height: 34px;
     background: var(--input);
     border: none;
     border-radius: 4px;
-    padding-left: 42px;
+    padding-left: 33px;
     font-size: 14px;
     font-weight: 400;
     color: var(--texto-primario);
@@ -48,7 +47,7 @@ header {
 
 .icone-busca {
     position: relative;
-    right: 305px;
+    right: 308px;
 }
 
 .nav-icones {
@@ -87,17 +86,17 @@ hr {
 
 .card-capa {
     background: var(--fundo-card);
+    position: absolute;
     width: 780px;
     height: 468px;
-    border-radius: 16px;
     left: 154px;
     top: 76px;
 }
 
 .img-perfil {
-    position: absolute;    
+    position: absolute;
     left: 24px;
-    top: 175px;
+    top: 118px;
 }
 
 .inform {
@@ -136,26 +135,23 @@ h2 {
     font-weight: 500;
 }
 
-.botoes {
-    display: flex;
-    font-weight: 14px;
+/*
+.img-perfil {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 24px;
+    top: 118px;
 }
 
-.botao-mensagem, .botao-mais {
-    border: 2px solid var(--primario);
-    background: var(--primario);
-    color: var(--texto-escuro);
-    padding: 6px 29px;
-    border-radius: 15px;
-    margin-right: 10px;
-
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
+.inform {
+    position: absolute;
+    width: 350px;
+    height: 30px;
+    left: 24px;
+    top: 278px;
 }
-
-.botao-mais {
-    background: none;
-    color: var(--primario);
-}
+*/
 
