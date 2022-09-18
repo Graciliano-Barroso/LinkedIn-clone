@@ -6,53 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="atividades.css">
-    <link rel="stylesheet" href="sobre.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>LinkedIn Clone</title>
 </head>
 <body>
-    <header>
-        <section class="navbar">
-            <div class="navbar-busca">
-              <span class="navbar-logo-linkedin"></span>
-              <span class="navbar-busca-icone"></span>
-              <input class="navbar-input" placeholder="Pesquisar"></input>
-            </div>
+  <header>      
+    <section class="navbar">
+        <div class="navbar-busca">
+          <span class="navbar-logo-linkedin"></span>
+          <span class="navbar-busca-icone"></span>
+          <input class="navbar-input" placeholder="Pesquisar"></input>
+        </div>
       
-            <nav>
-              <div class="navbar-item">
-                <span aria-hidden="true" class="item-icone inicio"></span>
-                <a href="#">Início</a>
-              </div>
-              <div class="navbar-item">
-                <span class="item-icone minha-rede"></span>
-                <a href="#">Minha rede</a>
-              </div>
-              <div class="navbar-item">
-                <span class="item-icone vagas"></span>
-                <a href="#">Vagas</a>
-              </div>
-              <div class="navbar-item">
-                <span class="item-icone mensagens"></span>
-                <a href="#">Mensagens</a>
-              </div>
-              <div class="navbar-item">
-                <span class="item-icone notificacoes"></span>
-                <a href="#">Notificações</a>
-              </div>
-              <div class="navbar-item">
-                <span class="item-icone solucoes"></span>
-                <a href="#">Soluções</a>
-              </div>
+        <nav>
+          <div class="navbar-item">
+            <span aria-hidden="true" class="item-icone inicio"></span>
+            <a href="#">Início</a>
+          </div>
+          <div class="navbar-item">
+            <span class="item-icone minha-rede"></span>
+            <a href="#">Minha rede</a>
+          </div>
+          <div class="navbar-item">
+            <span class="item-icone vagas"></span>
+            <a href="#">Vagas</a>
+          </div>
+          <div class="navbar-item">
+            <span class="item-icone mensagens"></span>
+            <a href="#">Mensagens</a>
+          </div>
+          <div class="navbar-item">
+            <span class="item-icone notificacoes"></span>
+            <a href="#">Notificações</a>
+          </div>
+          <div class="navbar-item">
+            <span class="item-icone solucoes"></span>
+            <a href="#">Soluções</a>
+          </div>
       
-            </nav>
-        </section>
-    </header>
+        </nav>
+    </section>
+  </header>
     <main>
+      <section class="banner-principal">
+        <div>
+          <img src="./img/Imagem de capa.png" alt="Foto do Banner principal">
+        </div>
+        <div class="banner-img-perfil">
+          <img src="./img/foto-perfil.png" alt="Foto do perfil">
+        </div>
+        <div class="banner-info">
+          <div>
+            <h1 class="banner-titulo">Nome Sobrenome</h1>
+            <h2 class="banner-subtitulo">Desenvolvedora | HTML | CSS | Typescript | Node</h2>
+            <p class="banner-assunto">Fala sobre #javascript, #frontend, #reactjs, e #backend</p>
+            <p class="banner-contato">Cidade, estado e país - <a href="#">informações de contato</a></p>
+            <p class="banner-seguidores_conexoes">??? seguidores - ??? conexões</p>
+          </div>
+          <div class="botoes">
+            <a class="botao-mensagem" href="#">Mensagem</a>
+            <a class="botao-mais" href="#">Mais</a>
+          </div>
+          <div>
+            <div class="caixa-miniatura">
+              <div class="banner-miniatura">
+                <img class="banner-img-miniatura" src="./img/miniatura-empresa.png" alt="Miniatura do logo da empresa">
+                <p>Empresa</p>
+              </div>
+              <div class="banner-miniatura">
+                <img class="banner-img-miniatura" src="./img/mini-inst-ensi.png" alt="Miniatura do logo da intituição de ensino">
+                <p>Instituição de ensino</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
         <section class="card atividades">
 
             <h2>Atividades</h2>
@@ -63,7 +93,7 @@
                 <div class="tipo-atividade">Nome Sobrenome publicou isso • 1 sem</div>
                 <div class="conteudo-atividade">
                   <div>
-                    <img src="assets/imagens/publicacao-1.jpg" alt="Imagem em miniatura de uma captura de tela do Visual Studio Code" class="atividade">
+                    <img src="./img/publicacao-1.jpg" alt="Imagem em miniatura de uma captura de tela do Visual Studio Code" class="atividade">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
                   </div>
                   <div class="engajamento">
@@ -80,7 +110,7 @@
                 <div class="tipo-atividade">Nome Sobrenome compartilhou isso • 1 sem</div>
                 <div class="conteudo-atividade">
                   <div>
-                    <img src="assets/imagens/publicacao-2.jpg" alt="Imagem em miniatura de uma captura de tela do Visual Studio Code" class="atividade">
+                    <img src="./img/publicacao-2.jpg" alt="Imagem em miniatura de uma captura de tela do Visual Studio Code" class="atividade">
                     <p>Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmeleon Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
                   <div class="engajamento">
