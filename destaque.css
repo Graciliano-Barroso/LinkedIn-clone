@@ -13,6 +13,8 @@
 }
 
 .banner-info {
+    display: grid;
+    grid-template-columns: auto auto;
     margin-left: 24px;
     padding-top: 8px;
 }
@@ -77,9 +79,6 @@
 }
 
 .caixa-miniatura {
-    position: absolute;
-    top: 320px;
-    left: 503px;
 }
 
 .banner-miniatura {
